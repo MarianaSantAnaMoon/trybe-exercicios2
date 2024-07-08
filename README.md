@@ -1,2 +1,5 @@
-# Meur epositório de exercícios
+# Meu repositório de exercícios
 Este repositório contêm meus exercícios.
+
+
+Pratique bastante❤️
