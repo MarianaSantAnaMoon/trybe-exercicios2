@@ -148,7 +148,55 @@ padding-top: 70px;
   padding: 10px;
   flex-direction: column;
   align-items: flex-start;
-  height: 500px;
+  height: 650px;
   max-width: 180px;
   font-size: 15px;
+}
+
+.free-month{
+  background-color: rgb(13, 114, 234);
+  color: white;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.unique-payment{
+  color: rgb(13, 114, 234);
+  border: 1px solid rgb(13, 114, 234);
+  border-radius: 2px;
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 10px;
+  font-weight: 900;
+}
+
+.price {
+  text-align: left;
+}
+
+.plan-style hr {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.plan-style ol {
+  text-align: left;
+  padding-left: 20px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  list-style-type: '✓ ';
+}
+
+.btn-comece-agora{
+  background-color: black;
+  color: white;
+  padding: 15px 35px;
+  border-radius: 100px;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.conditions, .conditions a{
+  color: rgb(83, 83, 83);
+  font-size: 10px;
 }
