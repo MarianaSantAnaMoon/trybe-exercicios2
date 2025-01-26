@@ -31,5 +31,5 @@ const getCountriesByRegion = (data, region) => {
   return filterCountries;
 };
 
-console.log(getCountriesByRegion(dataCountries, 'Asia'));
+console.log(getCountriesByRegion(dataCountries, 'Africa'));
 
