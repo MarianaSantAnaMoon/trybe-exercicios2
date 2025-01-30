@@ -1,6 +1,16 @@
 const data = require('./data');
 
-//Adiciona uma propriedade para cada elemento
-const addProperty = (data, propName, propValue) => data.map((card) => ({ ...card, [propName]: propValue }));
+// CRIAR UMA STRING PARA CADA CARTA COM SEU ATAQUE E DEFESA
 
-console.log(addProperty(data.cards, 'game', 'YU-GI=OH!'))
+const getCardAtkAndDef = (cards) =>{
+return cards.map((card) => {
+    if (card.atk !== undefined && card.def !== undefined){
+        return `A carta ${card.name} possui o ataque de ${card.atk} e defesa de ${card.def}.`;
+    } 
+        return `Essa carta não possui e/ou defesa.`
+    
+    
+});
+};
+
+console.log(getCardAtkAndDef(data.cards));
