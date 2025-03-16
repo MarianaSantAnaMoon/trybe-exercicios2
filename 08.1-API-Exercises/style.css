@@ -1,0 +1,54 @@
+h1 {
+font-size: 300%;
+font-family: Arial, Helvetica, sans-serif;
+padding: 1%;
+text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    margin-top: 20px; /* Espaço entre o h1 e os botões */
+  }
+  
+  .button-container button {
+    margin: 0 10px; /* Espaço entre os botões */
+    padding: 10px 20px; /* Tamanho dos botões */
+    border-radius: 10px; /* Bordas arredondadas */
+    border: none; /* Remove a borda padrão */
+    background-color: palevioletred; /* Cor de fundo dos botões */
+    color: white; /* Cor do texto dos botões */
+    cursor: pointer; /* Cursor ao passar sobre o botão */
+  }
+  
+  .button-container button:hover {
+    background-color: darkmagenta; /* Cor de fundo ao passar o mouse */}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    background-color: peachpuff;
+    }
+    
+.button-container {
+   margin-bottom: 20px; /* Espaço entre os botões e a imagem */
+    }
+    
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Altura fixa para a imagem */
+    }
+    
+#randomPetImage {
+    width: 300px; /* Largura fixa para a imagem */
+    height: 100%; /* Manter a proporção da imagem */
+    object-fit: cover; /* Cobre o espaço disponível mantendo a proporção */
+    border-radius: 15px;}
