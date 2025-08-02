@@ -1,0 +1,66 @@
+.icons__container {
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.post__container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.post__container:hover .icons__container {
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+}
+
+.Picture-Container img {
+    display: block;
+    /* Isso remove o espaço em branco abaixo da imagem */
+    width: 100%;
+    height: auto;
+}
+
+.Picture-Container {
+    border-radius: 3px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.Icons-Container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    opacity: 0;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+.Icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+}
+
+.Picture-Container:hover .Icons-Container {
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 1;
+}
