@@ -1,0 +1,20 @@
+.highlight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.highlight .image {
+    width: 80px;
+    height: 80px;
+    background-color: var(--primary);
+    pad: 0.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.highlight img {
+    max-width: 100%;
+}

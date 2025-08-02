@@ -1,0 +1,7 @@
+.hightlight__container {
+    display: flex;
+    margin: 1rem 0;
+    gap: 2rem;
+    /*16px*/
+    justify-content: center;
+}
