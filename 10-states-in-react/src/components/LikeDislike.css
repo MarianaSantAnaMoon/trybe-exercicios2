@@ -1,0 +1,19 @@
+.likeDislike_container {
+  padding: 1rem;
+  background-color: #c0c0c0;
+  border-radius: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.like__container {
+  display: flex;
+  align-items: center;
+}
+
+.like__container button {
+  border-radius: 0.5rem;
+  border: none;
+  background-color: transparent;
+}

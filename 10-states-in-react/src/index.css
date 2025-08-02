@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: 'Roboto', sans-serif;
+
+  --blue: #007bff;
+  --dark-blue: #0056b3;
+  --cyan: #8be9fd;
+  --green: #50fa7b;
+  --orange: #ffb86c;
+  --pink: #ff79c6;
+  --purple: #bd93f9;
+  --dark-purple: #6272a4;
+  --red: #ff5555;
+  --white: #f8f8f2;
+  --yellow: #f1fa8c;
+  --gray: #44475a;
+  --dark-gray: #282a36;
+}
